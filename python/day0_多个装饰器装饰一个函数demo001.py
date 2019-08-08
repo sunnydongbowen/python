@@ -8,7 +8,6 @@ def wrapper1(func):
         print("wrapper1,after func")
         return ret
     return inner1
-
 def wrapper2(func):
     def inner2(*args,**kwargs):
         print("wrapper2,before func")
